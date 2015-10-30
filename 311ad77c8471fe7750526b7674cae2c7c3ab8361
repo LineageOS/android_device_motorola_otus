@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f2577a7_9a18d081",
+        "filename": "ramdisk/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 634,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-10-30T11:15:42Z",
+      "side": 1,
+      "message": "try just switching qseecomd to class core, it might be all you need to fix your encrypted boot",
+      "range": {
+        "startLine": 634,
+        "startChar": 17,
+        "endLine": 634,
+        "endChar": 18
+      },
+      "revId": "311ad77c8471fe7750526b7674cae2c7c3ab8361",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
