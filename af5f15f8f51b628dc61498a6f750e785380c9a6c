@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_e8b4d937",
+        "filename": "proprietary-blobs.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 7230
+      },
+      "writtenOn": "2016-03-23T12:47:53Z",
+      "side": 1,
+      "message": "You can drop this too. It is a dependancy of STML0Updater.apk which you don\u0027t ship.",
+      "revId": "af5f15f8f51b628dc61498a6f750e785380c9a6c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
