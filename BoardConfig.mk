@@ -36,6 +36,9 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/ramdisk/fstab.qcom
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := xt1505,xt1506,otus_umts,otus_umtsds,otus,otus_ds
 
+# FM Radio
+BOARD_HAVE_QCOM_FM := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_otus
 TARGET_RECOVERY_DEVICE_MODULES := libinit_otus
