@@ -18,14 +18,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Geste</string>
-  <string name="ambient_display_title">Ambijentni zaslon</string>
+  <string name="ambient_display_title">Ambijentalni zaslon</string>
   <string name="pick_up_gesture_title">Podizanje</string>
-  <string name="pick_up_gesture_summary">Pulsiraj obavijesti pri podizanju ili unstow</string>
-  <string name="ir_wake_up_title">Val</string>
-  <string name="ir_wake_up_summary">Pulsiraj obavijesti kada mahnete rukom preko zaslona</string>
+  <string name="pick_up_gesture_summary">Pulsiranje obavijesti pri podizanju uređaja</string>
+  <string name="ir_wake_up_title">Mahanje</string>
+  <string name="ir_wake_up_summary">Pulsiranje obavijesti kada mahnete rukom preko zaslona</string>
   <string name="actions_title">Radnje</string>
   <string name="camera_gesture_title">Dvostruki zaokret</string>
-  <string name="camera_gesture_summary">Otvori fotoaparat gestom dvostruki zaokret</string>
-  <string name="ir_silencer_title">Gesta Val za bešumno</string>
-  <string name="ir_silencer_summary">Utišaj dolazne pozive mahanjem ruke preko zaslona</string>
+  <string name="camera_gesture_summary">Otvorite fotoaparat gestom dvostrukog zaokreta</string>
+  <string name="ir_silencer_title">Mahanje za utišavanje</string>
+  <string name="ir_silencer_summary">Utišajte dolazne pozive mahanjem rukom preko zaslona</string>
 </resources>
