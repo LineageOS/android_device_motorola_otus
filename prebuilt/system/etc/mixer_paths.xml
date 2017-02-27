@@ -146,10 +146,6 @@
 		<path name="deep-buffer-playback" />
 	</path>
 
-	<path name="deep-buffer-playback transmission-fm">
-		<ctl name="INTERNAL_FM_RX Audio Mixer MultiMedia1" value="1" />
-	</path>
-
 	<path name="low-latency-playback">
 		<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia5" value="1" />
 	</path>
@@ -175,10 +171,6 @@
 	<path name="low-latency-playback speaker-and-usb-headphones">
 		<path name="low-latency-playback usb-headphones" />
 		<path name="low-latency-playback" />
-	</path>
-
-	<path name="low-latency-playback transmission-fm">
-		<ctl name="INTERNAL_FM_RX Audio Mixer MultiMedia5" value="1" />
 	</path>
 
 	<path name="compress-offload-playback">
@@ -208,10 +200,6 @@
 		<path name="compress-offload-playback" />
 	</path>
 
-	<path name="compress-offload-playback transmission-fm">
-		<ctl name="INTERNAL_FM_RX Audio Mixer MultiMedia4" value="1" />
-	</path>
-
 	<path name="audio-record">
 		<ctl name="MultiMedia1 Mixer PRI_MI2S_TX" value="1" />
 	</path>
@@ -232,14 +220,6 @@
 
 	<path name="audio-record capture-fm">
 		<ctl name="MultiMedia1 Mixer INTERNAL_FM_TX" value="1" />
-	</path>
-
-	<path name="fm-virtual-record">
-		<ctl name="MultiMedia2 Mixer INTERNAL_FM_TX" value="1" />
-	</path>
-
-	<path name="fm-virtual-record capture-fm">
-		<path name="fm-virtual-record"  />
 	</path>
 
 	<path name="voice-call">
@@ -495,9 +475,6 @@
 	</path>
 
 	<path name="afe-proxy">
-	</path>
-
-	<path name="transmission-fm">
 	</path>
 
 	<path name="speaker-and-usb-headphones">
