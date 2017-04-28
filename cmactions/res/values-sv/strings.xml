@@ -21,4 +21,5 @@
   <string name="ambient_display_title">Skärm med omgivningsljus</string>
   <string name="pick_up_gesture_title">Plocka upp</string>
   <string name="actions_title">Åtgärder</string>
+  <string name="ir_silencer_title">Vifta för att tysta</string>
 </resources>
