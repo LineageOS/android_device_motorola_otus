@@ -59,24 +59,24 @@ void vendor_load_properties()
     if (platform != ANDROID_TARGET)
         return;
 
-    property_set("ro.product.model", "Moto E");
+    property_override("ro.product.model", "Moto E");
     radio = property_get("ro.boot.radio");
     if (radio == "0x1") {
         /* xt1505 */
-        property_set("ro.product.device", "otus");
-        property_set("ro.build.product", "otus");
-        property_set("ro.build.description", "otus_retuglb-user 5.0.2 LXC22.99-12 11 release-keys");
-        property_set("ro.build.fingerprint", "motorola/otus_retuglb/otus:5.0.2/LXC22.99-12/11:user/release-keys");
+        property_override("ro.product.device", "otus");
+        property_override("ro.build.product", "otus");
+        property_override("ro.build.description", "otus_retuglb-user 5.0.2 LXC22.99-12 11 release-keys");
+        property_override("ro.build.fingerprint", "motorola/otus_retuglb/otus:5.0.2/LXC22.99-12/11:user/release-keys");
         property_set("ro.mot.build.customerid", "retusa_glb");
         property_set("ro.telephony.default_network", "0");
         property_set("persist.radio.multisim.config", "");
     }
     else if (radio == "0x5") {
         /* xt1506 */
-        property_set("ro.product.device", "otus_ds");
-        property_set("ro.build.product", "otus_ds");
-        property_set("ro.build.description", "otus_reteu_ds-user 5.0.2 LXC22.99-13 11 release-keys");
-        property_set("ro.build.fingerprint", "motorola/otus_reteu_ds/otus_ds:5.0.2/LXC22.99-13/11:user/release-keys");
+        property_override("ro.product.device", "otus_ds");
+        property_override("ro.build.product", "otus_ds");
+        property_override("ro.build.description", "otus_reteu_ds-user 5.0.2 LXC22.99-13 11 release-keys");
+        property_override("ro.build.fingerprint", "motorola/otus_reteu_ds/otus_ds:5.0.2/LXC22.99-13/11:user/release-keys");
         property_set("ro.mot.build.customerid", "reteuall");
         property_set("ro.telephony.default_network", "0,1");
         property_set("persist.radio.multisim.config", "dsds");
@@ -86,10 +86,10 @@ void vendor_load_properties()
     }
     else if (radio == "0x6") {
         /* xt1511 */
-        property_set("ro.product.device", "otus");
-        property_set("ro.build.product", "otus");
-        property_set("ro.build.description", "otus_retuaws-user 5.0.2 LXC22.99-12 10 release-keys");
-        property_set("ro.build.fingerprint", "motorola/otus_retuaws/otus:5.0.2/LXC22.99-12/10:user/release-keys");
+        property_override("ro.product.device", "otus");
+        property_override("ro.build.product", "otus");
+        property_override("ro.build.description", "otus_retuaws-user 5.0.2 LXC22.99-12 10 release-keys");
+        property_override("ro.build.fingerprint", "motorola/otus_retuaws/otus:5.0.2/LXC22.99-12/10:user/release-keys");
         property_set("ro.mot.build.customerid", "retusa_aws");
         property_set("ro.telephony.default_network", "0");
         property_set("persist.radio.multisim.config", "");
