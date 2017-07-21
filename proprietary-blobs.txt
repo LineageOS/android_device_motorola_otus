@@ -11,7 +11,7 @@ etc/firmware/sensorhubfw.bin
 etc/firmware/sensorhubver.txt
 etc/firmware/synaptics-boe-s2316-15020301-175833-otus.tdat
 etc/firmware/synaptics-inx-s2316-15020302-175833-otus.tdat
-lib/hw/camera.msm8610.so
+lib/hw/camera.vendor.msm8610.so
 lib/hw/sensorhub.msm8610.so
 lib/hw/sensors.msm8610.so
 vendor/lib/libchromatix_s5k5e2_common.so
