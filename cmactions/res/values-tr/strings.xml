@@ -27,5 +27,5 @@
   <string name="camera_gesture_title">Çift sallama</string>
   <string name="camera_gesture_summary">Çift sallama hareketi kullanıldığında kamerayı aç</string>
   <string name="ir_silencer_title">Sessize almak için sallayın</string>
-  <string name="ir_silencer_summary">Elinizi ekranın üstünde sallayarak gelen çağrıları sessize alın</string>
+  <string name="ir_silencer_summary">Elinizi ekranın üstünde sallayarak gelen aramaları sessize alın</string>
 </resources>
