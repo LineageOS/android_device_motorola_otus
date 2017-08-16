@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b20d5cd5_f1c77db6",
+        "filename": "setup-makefiles.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-08-16T12:32:13Z",
+      "side": 1,
+      "message": "Isn\u0027t this meant to be INITIAL_COPYRIGHT_YEAR? Your common tree doesn\u0027t use DEVICE_BRINGUP_YEAR",
+      "revId": "b1c2ad8a00172b881b9bb38a504c77d9df214ea3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
